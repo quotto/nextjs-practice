@@ -9,3 +9,8 @@ export async function serverFormAction(prevState: any,formData: FormData) {
         return {message: 'email or password is null'}
     }
 }
+
+export async function serverAsyncAction(params: any) {
+    console.log('called serverAsyncAction from client')
+    return {message: 'received'}
+}

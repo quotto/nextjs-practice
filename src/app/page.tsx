@@ -42,11 +42,20 @@ export default function Home() {
       <Link href="/simple-page" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"  rel="noopener noreferrer">
         シンプルなレイアウトとページの確認
       </Link>
+      <Link href="/server-rendering" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"  rel="noopener noreferrer">
+        サーバーサイドレンダリング
+      </Link>
+      <Link href="/client-rendering" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"  rel="noopener noreferrer">
+        クライアントサイドレンダリング
+      </Link>
       <Link href="/server-action/include" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"  rel="noopener noreferrer">
         サーバーコンポーネントのフォーム処理
       </Link>
       <Link href="/server-action/isolate" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"  rel="noopener noreferrer">
-        クライアントコンポーネントとサーバーコンポーネントのフォーム処理とレスポンスの反映
+        クライアントコンポーネントとサーバーコンポーネント間の処理呼び出し
+      </Link>
+      <Link href="/api/page" className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"  rel="noopener noreferrer">
+        APIの呼び出し
       </Link>
 
     </main>
